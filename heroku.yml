@@ -5,4 +5,8 @@ run:
   worker:
     command:
       - python3 sython.py
+      run:
+  worker:
+    command:
+      - python3 mmma.py
 
