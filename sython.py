@@ -41,14 +41,14 @@ sython.start()
 @sython.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython(JoinChannelRequest("@L_URD"))
+        await sython(JoinChannelRequest("@saythonh"))
     except BaseException:
         pass
         
 @sython.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython(JoinChannelRequest("@L_URD"))
+        await sython(JoinChannelRequest("@sy_tem"))
     except BaseException:
         pass
       
@@ -56,7 +56,7 @@ async def join_channel(event):
 @sython.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython(JoinChannelRequest("@L_URD"))
+        await sython(JoinChannelRequest("@K_K_Q_L"))
     except BaseException:
         pass  
         
@@ -93,7 +93,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@L_URD"))
+        await sython(JoinChannelRequest("@saythonh"))
     except BaseException:
         pass
 
@@ -107,7 +107,7 @@ async def _(event):
             if normal in normzltext:
                 namefont = namerzfont[normzltext.index(normal)]
                 HM = HM.replace(normal, namefont)
-        name = f"𝘀𝘆𝘁𝗵𝗼𝗻 | {HM}"
+        name = f"@L_URD | {HM}"
         LOGS.info(name)
         try:
             await sython(
@@ -131,7 +131,7 @@ async def _(event):
             if normal in normzltext:
                 namefont = namerzfont[normzltext.index(normal)]
                 HM = HM.replace(normal, namefont)
-        bio = f"𝘀𝘆𝘁𝗵𝗼𝗻 |️ {HM}"
+        bio = f"@L_URD |️ {HM}"
         LOGS.info(bio)
         try:
             await sython(
@@ -228,7 +228,7 @@ async def _(event):
     await event.delete()
     pic = await rr9r7.download_media()
     await sython.send_file(
-        "me", pic, caption=f"تـم حفظ الصورة او الفيديو الذاتي هنا : 𝘀𝘆𝘁𝗵𝗼𝗻"
+        "me", pic, caption=f"تـم حفظ الصورة او الفيديو الذاتي هنا : @L_URD"
     )
 
 
@@ -459,7 +459,7 @@ async def _(event):
 ♔ 𝕄𝕀ℂℍ𝔼𝕃 𝐢𝐬 𝐰𝐨𝐫𝐤𝐢𝐧𝐠
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 ❖╎𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐬𝐨𝐮𝐫𝐜𝐞 𝕄𝕀ℂℍ𝔼𝕃
-❖╎𝐝𝐞𝐯𝐥𝐨 : @L_URD
+❖╎𝐝𝐞𝐯𝐥𝐨   : @L_URD
 ❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @LLYL44
 ❖╎𝐯𝐞𝐫𝐬𝐢𝐨𝐧 : 2.7 - revised 
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
@@ -565,7 +565,7 @@ async def _(event):
     photo = await sython.get_profile_photos(DEVS[0])
     await sython.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @L_URD
+      - @T_4_Z
 ''', reply_to=event)
 
 
