@@ -41,14 +41,14 @@ sython.start()
 @sython.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython(JoinChannelRequest("@saythonh"))
+        await sython(JoinChannelRequest("@L_URD"))
     except BaseException:
         pass
         
 @sython.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython(JoinChannelRequest("@sy_tem"))
+        await sython(JoinChannelRequest("@L_URD"))
     except BaseException:
         pass
       
@@ -56,7 +56,7 @@ async def join_channel(event):
 @sython.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython(JoinChannelRequest("@K_K_Q_L"))
+        await sython(JoinChannelRequest("@L_URD"))
     except BaseException:
         pass  
         
@@ -81,7 +81,7 @@ logging.basicConfig(
 
 
 DEVS = [
-    5159123009,
+    5901085224,
 ]
 DEL_TIME_OUT = 60
 normzltext = "1234567890"
@@ -93,7 +93,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@saythonh"))
+        await sython(JoinChannelRequest("@L_URD"))
     except BaseException:
         pass
 
@@ -456,11 +456,11 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-♔ 𝐬𝐲𝐭𝐡𝐨𝐧 𝐢𝐬 𝐰𝐨𝐫𝐤𝐢𝐧𝐠
+♔ 𝕄𝕀ℂℍ𝔼𝕃 𝐢𝐬 𝐰𝐨𝐫𝐤𝐢𝐧𝐠
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 ❖╎𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐲𝐭𝐡𝐨𝐧
-❖╎𝐝𝐞𝐯𝐥𝐨 : hussam.fa
-❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @saythonh
+❖╎𝐝𝐞𝐯𝐥𝐨 : L_URD
+❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @LLYL44
 ❖╎𝐯𝐞𝐫𝐬𝐢𝐨𝐧 : 2.7 - revised 
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 ''')
@@ -565,7 +565,7 @@ async def _(event):
     photo = await sython.get_profile_photos(DEVS[0])
     await sython.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @T_4_Z
+      - @L_URD
 ''', reply_to=event)
 
 
@@ -800,5 +800,5 @@ async def _(event):
 
 
 
-print("♦️ sython is Running ♦️")
+print("♦️ 𝕄𝕀ℂℍ𝔼𝕃 is Running ♦️")
 sython.run_until_disconnected()
